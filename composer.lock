@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "b52bd6341324986663d9cf48db8035fc",
+    "content-hash": "22a9641ad31576175fa5c9cf18a8252c",
+    "packages": [
+        {
+            "name": "nicklayb/htmlbuilder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicklayb/htmlbuilder.git",
+                "reference": "dfd16f870ec141557d0684d455962176324a1bef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicklayb/htmlbuilder/zipball/dfd16f870ec141557d0684d455962176324a1bef",
+                "reference": "dfd16f870ec141557d0684d455962176324a1bef",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nicklayb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Nicolas Boisvert",
+                    "email": "nicklay@me.com"
+                }
+            ],
+            "description": "Useful helper to build server side html with tag chaining creation and templates for things like Bootstrap.",
+            "time": "2016-09-15 16:17:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "nicklayb/htmlbuilder": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

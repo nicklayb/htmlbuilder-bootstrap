@@ -1,0 +1,19 @@
+{
+    "name": "nicklayb/htmlbuilder-bootstrap",
+    "description": "Bootstrap wrapper for HtmlBuilder",
+    "require": {
+        "nicklayb/htmlbuilder": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Nicolas Boisvert",
+            "email": "nicklay@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nicklayb\\HtmlBuilder\\Bootstrap\\": "src/HtmlBuilder/Bootstrap"
+        }
+    },
+    "minimum-stability": "dev"
+}
